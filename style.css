@@ -35,6 +35,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-size: 20px;
     margin-right: 16px;
     text-decoration: none;
     color: #fff;
@@ -51,8 +52,7 @@ section div.conteiner-about img{
     width: 300px;
 }
 
-section div.txt-about,
-ul{
+section div.txt-about > ul{
     margin: 0 20px;
 }
 
@@ -71,7 +71,7 @@ div.txt-about p{
     margin-left: 20px;
 }
 
-div.txt-about ul{
+div.txt-about  ul{
     display: flex;
     justify-content: end;
 }
@@ -95,21 +95,27 @@ ul li i:hover{
 }
 
 #contact .container-contact{
-    display: block;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
     margin: 20px 40px;
+    margin:20px;
+    gap: 16px;
+
 }
 
 .contact-methods{
     display: flex;
-    align-items: start;
-    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
-    margin-top: 16px;
+    
+    
 }
 
 form{
     display: flex;
     flex-direction: column;
+    margin-top: 8px;
     gap: 5px;
 }
 
@@ -128,6 +134,36 @@ form textarea{
     resize: none;
     height: 180px;
 }
+.title-contact{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+    font-size: 30px;
+}
+
+div .contact-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links li, 
+a{
+    display: inline;
+    list-style: none;
+    color: #00ff88;
+    font-size: 30px;
+    margin-right: 5px;
+    
+}
+
+div .local{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+div .local p{
+    color: #00ff88;
+}
 
 h3{
     color: #fff;
@@ -142,3 +178,4 @@ footer p{
     display: flex;
     justify-content: center;
 }
+
